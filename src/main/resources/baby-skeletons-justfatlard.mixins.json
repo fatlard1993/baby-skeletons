@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "justfatlard.baby_skeletons.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractSkeletonMixin",
+		"AgeableMobAccess",
+		"BrainMixin",
+		"MobMixin",
+		"RangedBowAttackGoalMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "baby-skeletons-gametest",
+	"version": "1.0.0",
+	"name": "Baby Skeletons tests",
+	"description": "Loads the mod, joins a world, and checks babies are born and sized.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"justfatlard.baby_skeletons.gametest.SmokeTest",
+			"justfatlard.baby_skeletons.gametest.BabiesAreBorn",
+			"justfatlard.baby_skeletons.gametest.BabiesAreSmall",
+			"justfatlard.baby_skeletons.gametest.BabiesLookLikeBabies",
+			"justfatlard.baby_skeletons.gametest.BabiesRideJockeys",
+			"justfatlard.baby_skeletons.gametest.JockeysPictured"
+		]
+	},
+	"depends": {
+		"baby-skeletons-justfatlard": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}

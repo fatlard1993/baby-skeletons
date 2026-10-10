@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "baby-skeletons-justfatlard",
+	"version": "${version}",
+	"name": "Baby Skeletons",
+	"description": "Half-size skeletons, strays, bogged, parched and wither skeletons: frailer, with a weaker bow, now and then riding a chicken or an animal of their own country, and still everything their kind is.",
+	"authors": [
+		"justfatlard"
+	],
+	"contact": {
+		"homepage": "https://github.com/fatlard1993/baby-skeletons",
+		"sources": "https://github.com/fatlard1993/baby-skeletons",
+		"issues": "https://github.com/fatlard1993/baby-skeletons/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/baby-skeletons-justfatlard/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"justfatlard.baby_skeletons.Main"
+		]
+	},
+	"mixins": [
+		"baby-skeletons-justfatlard.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loaderVersion}",
+		"minecraft": "${minecraftDependency}",
+		"java": ">=25",
+		"pandorical": ">=15.16.0",
+		"fabric-api": "${fabricApiVersion}"
+	},
+	"suggests": {
+		"block-tip": "*"
+	}
+}
