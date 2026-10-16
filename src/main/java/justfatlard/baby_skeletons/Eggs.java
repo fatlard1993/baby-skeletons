@@ -18,8 +18,8 @@ import net.minecraft.world.phys.EntityHitResult;
  * zombie hatches a baby zombie.
  *
  * <p>An egg used on the ground goes through the ordinary spawn and rolls the same one in twenty as
- * the night does, which is the same thing beets-bears' egg does with its bears. This is the way to
- * get one for certain, and it is the gesture the game already teaches.
+ * the night does. This is the way to get one for certain, and it is the gesture the game already
+ * teaches.
  *
  * <p>Done here rather than by letting the game's own egg path through. That path makes the offspring
  * and asks it to be a baby, which a skeleton has no way to say yes to; and it never finishes spawning

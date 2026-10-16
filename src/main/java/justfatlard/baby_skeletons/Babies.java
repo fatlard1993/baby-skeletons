@@ -36,9 +36,9 @@ import org.jspecify.annotations.Nullable;
  * horse is in the game's {@code #skeletons} tag but is not an AbstractSkeleton, which is the line
  * this mod wants: it is a horse.
  *
- * <p>Which skeleton is a baby is written on it as a scoreboard tag, the way beets-bears marks its
- * bears. Tags ride in the entity's own save data, are carried across the skeleton-to-stray freeze by
- * the game itself, and can be read and set with {@code /tag}.
+ * <p>Which skeleton is a baby is written on it as a scoreboard tag. Tags ride in the entity's own
+ * save data, are carried across the skeleton-to-stray freeze by the game itself, and can be read and
+ * set with {@code /tag}.
  */
 public final class Babies {
 	private Babies() {}
