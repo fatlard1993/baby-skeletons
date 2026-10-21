@@ -3,6 +3,9 @@
 		"Every so often a skeleton comes out half-size: frailer, still firing whatever its kind fires, and once in a while riding something."
 	],
 	"versions": {
+		"1.1.1": [
+			"Works with Pandorical as old as 15.13.0. Before 15.16 a baby is drawn as a grown skeleton at half size, rather than in its own baby shape."
+		],
 		"1.1.0": [
 			"A baby skeleton looks like a baby now: a big head on a small body, the size of a baby zombie beside it, its armour fitted to it. It used to be a grown skeleton shrunk.",
 			"A game with a Pandorical older than 15.16, or none, still sees the grown skeleton at half size.",

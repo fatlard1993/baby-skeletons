@@ -48,6 +48,8 @@ public final class Babies {
 
 	/** Half a grown one: a baby zombie's hitbox, and what a client without Pandorical draws a baby at. */
 	public static final float SCALE = 0.5F;
+	/** Before it, a baby is the grown skeleton's model at the scale attribute's half. */
+	private static final boolean MODELS = PandoricalVersion.atLeast("15.16.0");
 
 	/**
 	 * Half again as fast, for a baby that fights hand to hand. The baby zombie's own number
@@ -138,7 +140,7 @@ public final class Babies {
 	 */
 	public static void applySize(AbstractSkeleton skeleton) {
 		if (!is(skeleton)) return;
-		PandoricalApi.entityModels().set(skeleton, MODEL, null, 1F / SCALE);
+		if (MODELS) PandoricalApi.entityModels().set(skeleton, MODEL, null, 1F / SCALE);
 		permanent(skeleton.getAttribute(Attributes.SCALE), SIZE, SCALE - 1F);
 		permanent(skeleton.getAttribute(Attributes.MAX_HEALTH), SIZE, SCALE - 1F);
 		applySpeed(skeleton);
