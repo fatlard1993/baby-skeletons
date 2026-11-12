@@ -1,0 +1,52 @@
+{
+  "demo": {
+    "name": "Baby Skeletons",
+    "icon": "minecraft:skeleton_spawn_egg",
+    "about": [
+      "Every kind of skeleton now has babies: half the size, frailer, with a weaker bow, and now and then riding something.",
+      "Skeletons, strays, bogged and parched are coming. Use the matching spawn egg on a grown one to hatch a baby of its kind, and watch for babies turning up on their own."
+    ]
+  },
+  "pvp_preset": 1,
+  "needs": ["baby-skeletons-justfatlard"],
+  "preset": {
+    "name": "Baby Skeletons",
+    "icon": "minecraft:skeleton_spawn_egg",
+    "pvp": false,
+    "game_mode": "survival",
+    "entry_kit": [
+      {"slot": 0, "item": {"id": "minecraft:iron_sword", "count": 1}},
+      {"slot": 1, "item": {"id": "minecraft:bow", "count": 1}},
+      {"slot": 2, "item": {"id": "minecraft:skeleton_spawn_egg", "count": 4}},
+      {"slot": 3, "item": {"id": "minecraft:stray_spawn_egg", "count": 4}},
+      {"slot": 4, "item": {"id": "minecraft:bogged_spawn_egg", "count": 4}},
+      {"slot": 5, "item": {"id": "minecraft:parched_spawn_egg", "count": 4}},
+      {"slot": 6, "item": {"id": "minecraft:wither_skeleton_spawn_egg", "count": 2}},
+      {"slot": 7, "item": {"id": "minecraft:cooked_beef", "count": 16}},
+      {"slot": 8, "item": {"id": "minecraft:arrow", "count": 32}},
+      {"slot": 40, "item": {"id": "minecraft:shield", "count": 1}},
+      {"slot": 36, "item": {"id": "minecraft:iron_boots", "count": 1}},
+      {"slot": 37, "item": {"id": "minecraft:iron_leggings", "count": 1}},
+      {"slot": 38, "item": {"id": "minecraft:iron_chestplate", "count": 1}},
+      {"slot": 39, "item": {"id": "minecraft:iron_helmet", "count": 1}}
+    ],
+    "respawn_kit": "entry",
+    "goal": "time",
+    "mobs": "always",
+    "mob_rarity": "normal",
+    "mob_default": "off",
+    "mob_levels": {
+      "minecraft:skeleton": "normal",
+      "minecraft:stray": "normal",
+      "minecraft:bogged": "normal",
+      "minecraft:parched": "normal",
+      "minecraft:wither_skeleton": "rare"
+    },
+    "life": 15,
+    "size": 3,
+    "world": "overworld",
+    "shape": "natural",
+    "biome": "minecraft:plains",
+    "weather": "clear"
+  }
+}
